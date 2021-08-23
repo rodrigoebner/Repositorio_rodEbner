@@ -1,0 +1,147 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,300;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+/*Fonts*/
+/*Nav*/
+nav {
+  background-color: #FFFFFF; }
+  nav li {
+    text-decoration: none; }
+  nav img {
+    width: 200px; }
+  nav a {
+    font-family: "Roboto", sans-serif; }
+
+/*Animacion logo*/
+.transform:hover {
+  transform: translate(20px);
+  cursor: pointer;
+  transition: transform 3s; }
+
+/*Search principal*/
+form.d-flex {
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex; }
+
+/*breadcrumb*/
+nav.breadcrumb {
+  background-color: transparent; }
+
+/*Formulario Contacto*/
+#formularioContacto {
+  margin-left: 30px; }
+
+#mensaje {
+  height: 100px; }
+
+/*Transiciones index*/
+.transition {
+  width: 100%;
+  transition: width 2s; }
+
+.transition:hover {
+  width: 80%; }
+
+/*Footer*/
+footer {
+  color: black;
+  text-align: center;
+  background-color: #E7E6E6;
+  width: 100%;
+  height: 180px;
+  bottom: 0px;
+  font-size: 12px;
+  padding-top: 30px;
+  font-family: 'Roboto', sans-serif;
+  /*Bucle avanzado*/ }
+  footer h5 {
+    font-style: italic;
+    font-size: 0.75rem; }
+  footer ol {
+    display: inline-flex;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 10px;
+    padding-bottom: 10px; }
+  footer .facebook-icon {
+    background-image: url(../img/facebook.svg);
+    width: 25px;
+    height: 25px;
+    background-size: 100%;
+    list-style: none; }
+  footer .twitter-icon {
+    background-image: url(../img/twitter.svg);
+    width: 25px;
+    height: 25px;
+    background-size: 100%;
+    list-style: none;
+    margin-left: 15px; }
+  footer .instagram-icon {
+    background-image: url(../img/instagram.svg);
+    width: 25px;
+    height: 25px;
+    background-size: 100%;
+    list-style: none;
+    margin-left: 15px; }
+  footer li .linkSitemap {
+    list-style: none;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-left: 15px; }
+
+/* Box preguntas*/
+.card {
+  margin-bottom: 10px; }
+
+.card-header {
+  background-color: #B4D2CF; }
+
+#preg1 {
+  background-color: #CAB1CA; }
+
+/*MediA*/
+@media screen and (max-width: 767px) {
+  body {
+    background-color: blue; }
+  .card {
+    margin-left: 30px; }
+  footer h5 {
+    text-align: left;
+    color: pink;
+    margin-left: 3rem; }
+  form.d-flex {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex; } }
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  body {
+    background-color: #f8f9fa; } }
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  body {
+    background-color: darkgrey; }
+  .card-body {
+    text-align: center; }
+  footer h5 {
+    text-align: center;
+    color: yellow; } }
+
+/*Aplicación Extends*/
+.btn, .btn-primary {
+  width: 100px;
+  height: 40px;
+  background-color: #adb5bd;
+  color: white;
+  align-items: center; }
+  .btn:hover, .btn-primary:hover {
+    color: black;
+    cursor: pointer; }
+
+.btn-primary {
+  border-radius: 10px;
+  text-align: center; }

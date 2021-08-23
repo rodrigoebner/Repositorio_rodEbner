@@ -1,0 +1,41 @@
+/*MediA*/
+
+@media screen and (max-width:  767px){
+	body{
+		background-color:  blue;
+	}
+    .card{
+    	margin-left: 30px;
+    }
+
+	footer h5{
+		text-align: left;
+		color: pink;
+		margin-left: 3rem;
+	}
+
+	form.d-flex{
+	margin-left: 10px;
+	margin-right: 10px;
+	display: $d-flex;
+	}
+}
+
+@media screen and (min-width:  768px) and (max-width:  1024px){
+	body{
+		background-color: #f8f9fa; 
+	}
+}
+
+@media screen and (min-width:  1025px) and (max-width:  1200px){
+	body{
+		background-color: darkgrey;
+	}
+	.card-body{
+		text-align: center;
+	}
+	footer h5{
+		text-align: center;
+		color: yellow;
+	}
+}

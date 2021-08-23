@@ -1,0 +1,19 @@
+/*Aplicación Extends*/
+
+.btn{
+	width: 100px;
+	height: 40px;
+	background-color: $bg-secondary;
+	color: white;
+	align-items: center;
+	&:hover{
+		color: black;
+		cursor: pointer;
+	}
+}
+
+.btn-primary{
+	@extend .btn;
+	border-radius: 10px;
+	text-align: center;
+}

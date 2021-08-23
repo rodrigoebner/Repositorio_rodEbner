@@ -1,0 +1,21 @@
+/*Formulario Contacto*/
+
+#formularioContacto{
+	margin-left: 30px;
+}
+
+#mensaje{
+	height: 100px;
+}
+
+
+/*Transiciones index*/
+
+.transition{
+	width: 100%;
+	transition: width 2s;
+}
+
+.transition:hover{
+	width: 80%;
+}

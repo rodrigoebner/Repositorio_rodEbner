@@ -1,0 +1,21 @@
+/*Nav*/
+
+nav{
+	background-color: $bg-white;
+	li{
+		text-decoration: none;
+	}
+	img{
+		width: 200px;
+	}
+	a{
+		font-family: $fontMain;
+	}
+}
+
+/*Animacion logo*/
+.transform:hover{
+	transform: translate(20px);
+	cursor: pointer;
+	transition: transform 3s;
+}
